@@ -3,7 +3,7 @@ import math
 def SDE(a,b,c):
     delta = b**2-4*a*c
     if delta < 0:
-        print('This equation does not have answer')
+        print('This equation does not have an answer')
     elif delta == 0:
         x = -b/2*a
         print('This equation has one answer its {}'.format(x))
@@ -14,4 +14,4 @@ def SDE(a,b,c):
         x2 = round(x2_numerator/2*a, 2)
         print('This equation has two answer x1 is {} and x2 is {}'.format(x1,x2))
 
-SDE(1,-5,6)
+SDE(1, 2, -24)
